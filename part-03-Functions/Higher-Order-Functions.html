@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+    <body>  
+        <p>
+            Before the script...
+        </p>  
+        <script> 
+        function formalGreeting(){
+            console.log("How are you");
+        }
+
+        function casualGreeting(){
+            console.log("Hi What's up?")
+        }
+
+        function greet (type, greetFormal,greetCasual){
+            if(type =='formal'){
+                greetFormal();
+            }
+            else if (type=='casual'){
+                greetCasual();
+            }
+        }
+
+        greet('casual',formalGreeting,casualGreeting);
+
+        //Another way
+
+        function greet(type){
+            if(type =='formal'){
+                return formalGreeting();
+            }
+            else if(type =='casual'){
+                return casualGreeting();
+            }
+        }
+
+        greet('formal');
+         
+        </script>  
+        <p>...After the script.</p>
+    </body>
+        </html>

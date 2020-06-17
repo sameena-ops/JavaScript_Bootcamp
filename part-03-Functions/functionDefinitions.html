@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+    <body>  
+        <p>
+            Before the script...
+        </p>  
+        <script> 
+//function declaration
+         function printNum(num){
+             console.log(num);
+         }
+
+         printNum(12);
+
+         var foo = printNum;
+         var foo1 = printNum(3);
+         foo(2);
+         foo1;
+         printNum.color = "black"
+         console.log(printNum.color);
+
+         //expression
+
+         var num1 = function(num){
+             console.log(num);
+         }
+         num1(4)
+
+         //Arrow syntax for function
+         var numagain = (num) => {
+           console.log(num);
+            }
+        numagain(5);
+        </script>  
+        <p>...After the script.</p>
+    </body>
+        </html>

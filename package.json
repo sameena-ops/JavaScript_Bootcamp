@@ -1,0 +1,15 @@
+{
+  "name": "javascrip-demo",
+  "version": "1.0.0",
+  "description": "bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "sameena",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^7.1.2",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}
