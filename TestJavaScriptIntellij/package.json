@@ -1,0 +1,19 @@
+{
+  "name": "testjavascriptintellij",
+  "version": "1.0.0",
+  "dependencies": {
+    "mocha": "^8.0.1",
+    "xlsx": "^0.16.2"
+  },
+  "main": "readwriteexcel.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
